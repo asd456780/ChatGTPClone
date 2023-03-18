@@ -1,5 +1,4 @@
 'use client'
-
 import { PaperAirplaneIcon } from "@heroicons/react/24/solid";
 import { useState } from "react";
 import { FormEvent } from "react";
@@ -52,7 +51,7 @@ function ChatInput({ chatId } : Props) {
       await fetch('/api/askQuestion',{
         method: 'POST',
         headers: {
-          'Content-Type': 'application/json'
+          'Content-Type': 'application/json',
         },
         body: JSON.stringify({
           prompt: input, 
@@ -61,10 +60,10 @@ function ChatInput({ chatId } : Props) {
           session,
         }),
       }).then(() => {
-
-          toast.success('ChatGPT has responded!',{
+          // Toast notification to say successful!
+          toast.success('ChatGPT has responded!', {
             id: notification,
-          })
+          });
       });
 
   };
@@ -84,7 +83,8 @@ function ChatInput({ chatId } : Props) {
     />
 
     <button 
-    disabled={!prompt || !session} type="submit"
+    disabled={!prompt || !session} 
+    type="submit"
     className="bg-[#11A37F] hover:opacity-50 text-white font-bold
     px-4 py-2 rounded
     disabled:cursor-not-allowed"
@@ -93,12 +93,10 @@ function ChatInput({ chatId } : Props) {
     </button>
     </form>
 
-    <div>
+    <div className="md:hidden">
       {/* ModelSelection */}
     </div>
-
-    
-    </div>
+</div>
   );
 }
 

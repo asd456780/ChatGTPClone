@@ -8,7 +8,6 @@ type Props = {
   };
 };
 function ChatPage({ params : { id }} : Props) {
-  //console.log(props);
   return (
     <div className="flex flex-col h-screen overflow-hidden">
       <Chat chatId={id} />
