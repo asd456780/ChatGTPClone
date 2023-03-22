@@ -1,11 +1,12 @@
 'use client';
 
 import { ArrowDownCircleIcon } from "@heroicons/react/24/outline";
-import { collection, orderBy, query } from "firebase/firestore";
+import { collection, orderBy, query} from "firebase/firestore";
 import { useSession } from "next-auth/react";
 import { useCollection } from "react-firebase-hooks/firestore";
 import { db } from "../firebase";
 import Message from "./Message";
+
 
 type Props = {
 chatId: string;

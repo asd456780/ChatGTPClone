@@ -1,6 +1,4 @@
 import { DocumentData } from "firebase/firestore";
-import { type } from "os";
-import { text } from "stream/consumers";
 
 type Props = {
     message: DocumentData;

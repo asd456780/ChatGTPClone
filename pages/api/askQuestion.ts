@@ -1,5 +1,5 @@
 // Next.js API route support: https://nextjs.org/docs/api-routes/introduction
-import { query } from 'firebase/firestore';
+import query from '../../lib/queryApi';
 import type { NextApiRequest, NextApiResponse } from 'next';
 import admin from "firebase-admin";
 import { adminDb } from '../../firebaseAdmin';
@@ -14,7 +14,7 @@ export default async function handler(
   req: NextApiRequest,
   res: NextApiResponse<Data>
 ) {
-const {prompt , chatId, model, sesssion} = req.body;
+const {prompt , chatId, model, session} = req.body;
 
 if (!prompt){
   res.status(400).json({answer: "Please provide a prompt!"});
@@ -41,7 +41,7 @@ const message: Message = {
 
 await adminDb
 .collection('users')
-.doc(sesssion?.user?.email)
+.doc(session?.user?.email)
 .collection("chats")
 .doc(chatId)
 .collection("messages")
