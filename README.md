@@ -1,27 +1,21 @@
-# Next.js + Tailwind CSS Example
+![](https://i.imgur.com/xELi2Cl.png)
+[🔴Let’s build ChatGPT Messenger 2.0 with REACT! (Next.js 13, Firebase, Tailwind CSS, TypeScript)](https://hackmd.io/@larry213/HyGzuSfk2)
 
-This example shows how to use [Tailwind CSS](https://tailwindcss.com/) [(v3.2)](https://tailwindcss.com/blog/tailwindcss-v3-2) with Next.js. It follows the steps outlined in the official [Tailwind docs](https://tailwindcss.com/docs/guides/nextjs).
+## ChatGPT Login Page
+![ChatGPT Login Page](https://user-images.githubusercontent.com/122899904/226797766-72ebef07-5c6c-43f1-a5a3-b93e07cd140e.png)
 
-## Deploy your own
+## Google Login Page
+![Google Login Page](https://user-images.githubusercontent.com/122899904/226797699-1c581f3f-bd15-4d50-888b-10688a1cb834.png)
 
-Deploy the example using [Vercel](https://vercel.com?utm_source=github&utm_medium=readme&utm_campaign=next-example) or preview live with [StackBlitz](https://stackblitz.com/github/vercel/next.js/tree/canary/examples/with-tailwindcss)
+## Chat Page
+![Chat Page](https://user-images.githubusercontent.com/122899904/226797763-3c175965-b5a5-4276-addb-1774df1db755.png)
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/git/external?repository-url=https://github.com/vercel/next.js/tree/canary/examples/with-tailwindcss&project-name=with-tailwindcss&repository-name=with-tailwindcss)
+## Chat Page Not Yet Cha
+![Chat Page Not Yet Chat](https://user-images.githubusercontent.com/122899904/226797761-edeaf030-0cf0-40f1-9461-758fa55ba33b.png)
 
-## How to use
+## Chat Page Chating
+![Chat Page Chating](https://user-images.githubusercontent.com/122899904/226797756-226ddaae-b0c1-42c5-acbe-3780495fb717.png)
 
-Execute [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app) with [npm](https://docs.npmjs.com/cli/init), [Yarn](https://yarnpkg.com/lang/en/docs/cli/create/), or [pnpm](https://pnpm.io) to bootstrap the example:
 
-```bash
-npx create-next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-yarn create next-app --example with-tailwindcss with-tailwindcss-app
-```
 
-```bash
-pnpm create next-app --example with-tailwindcss with-tailwindcss-app
-```
-
-Deploy it to the cloud with [Vercel](https://vercel.com/new?utm_source=github&utm_medium=readme&utm_campaign=next-example) ([Documentation](https://nextjs.org/docs/deployment)).
